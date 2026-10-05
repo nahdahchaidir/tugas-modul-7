@@ -100,6 +100,7 @@ $daftar_pesan = $guestbook->getEntries();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buku Tamu Perpustakaan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #ffffff;
@@ -108,7 +109,7 @@ $daftar_pesan = $guestbook->getEntries();
             --border-color: #e5e7eb;
             --accent: #111827;
         }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); margin: 0; padding: 40px 20px; line-height: 1.6; }
+        body { font-family: 'Poppins', sans-serif; background-color: var(--bg-color); color: var(--text-main); margin: 0; padding: 40px 20px; line-height: 1.6; }
         .container { max-width: 700px; margin: 0 auto; }
         
         h1 { font-size: 28px; font-weight: 700; margin-bottom: 30px; text-align: center; letter-spacing: -0.5px; }
